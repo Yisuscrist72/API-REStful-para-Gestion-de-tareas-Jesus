@@ -22,11 +22,6 @@ public class TaskServiceImpl implements TaskService {
     public Task createTask(Task task) {
         task.setCreatedAt(LocalDateTime.now());
         task.setUpdatedAt(LocalDateTime.now());
-
-        // Asegura que sea 'false' al crear, si no se especifica.
-        if (task.isCompleted()) {
-            task.setCompleted(false);
-        }
         return taskRepository.save(task);
     }
 
