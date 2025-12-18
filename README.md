@@ -79,11 +79,10 @@ A continuación se listan los endpoints principales del API, organizados por tip
 
 | Método | Endpoint | Descripción |
 |--------|----------|-------------|
-| GET | `/api/tasks/priority/{ALTA|MEDIA|BAJA}` | Filtra por nivel de prioridad. |
+| GET | `/api/tasks/priority/{ALTA, MEDIAM BAJA}` | Filtra por nivel de prioridad. |
 | GET | `/api/tasks/category/{nombre}` | Filtra por categoría (ej. Diseño, Desarrollo). |
 | GET | `/api/tasks/tag/{etiqueta}` | Busca tareas que contengan una etiqueta específica. |
 | GET | `/api/tasks/pending` | Lista todas las tareas con `completed: false`. |
-
 3. Acciones de Estado (PATCH)
 
 | Método | Endpoint | Descripción |
