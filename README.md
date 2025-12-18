@@ -20,6 +20,7 @@ Para ejecutar este proyecto localmente, necesitas:
 -   **Java 25** (JDK) o superior.
 -   **MongoDB** (ejecutándose en el puerto por defecto: 27017).
 -   **Maven 3.9+** (o usar el wrapper `./mvnw` incluido).
+-   **IDE** INTELLIJ IDEA para ejecutar el programa y ver codigo.
 -   **Postman** (para importar la colección de pruebas).
 
 ⚙️ Instrucciones de Instalación
